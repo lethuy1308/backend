@@ -1,0 +1,403 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Best Sellers",
+      "updatedAt": 1728844911910
+    },
+    {
+      "id": 2,
+      "name": "Favorite Products",
+      "updatedAt": 1728844911910
+    },
+    {
+      "id": 3,
+      "name": "Food",
+      "updatedAt": 1728844911910
+    },
+    {
+      "id": 4,
+      "name": "Drinking water",
+      "updatedAt": 1728844911910
+    }
+  ],
+  "orders": [
+    {
+      "fullName": "THUY",
+      "email": "linhne17102005@gmail.com",
+      "phone": "0869165025",
+      "address": "65 GFJVFF",
+      "note": "",
+      "userId": "3",
+      "products": [
+        {
+          "img": "https://healthyfarm.com.vn/wp-content/uploads/2023/04/Banh-Hat.jpg",
+          "productId": "0142e06c-6b51-473d-91ae-d20b91f84111",
+          "quantity": 3,
+          "userId": "3",
+          "nameProduct": "Tasty Concrete Mouse"
+        }
+      ],
+      "totalAmount": 627.67,
+      "date": "2024-12-09T18:13:34.111Z",
+      "createdAt": 1733768014146,
+      "id": 1,
+      "status": "Đã xác nhận",
+      "dateUpdate": "2024-12-11T14:20:59.635Z"
+    },
+    {
+      "fullName": "linh",
+      "email": "linhne17102005@gmail.com",
+      "phone": "021792713",
+      "address": "1123 Nguyễn Hữu Thọ",
+      "note": "Giao hàng nhanh giúp tôi!!!",
+      "userId": "1",
+      "products": [
+        {
+          "img": "https://rcc.vn/wp-content/uploads/2021/01/nuoc-ep-can-tay-loai-thuc-uong-healthy-bo-duong-nuoc-ep-can-tay-5.jpg",
+          "productId": "53d4de5f-c847-41c7-a522-8262ebd582fa",
+          "quantity": 3,
+          "userId": "1",
+          "nameProduct": "Generic Cotton Cheese"
+        },
+        {
+          "img": "https://nvhphunu.vn/wp-content/uploads/2023/12/Hoc-Pha-Che-Do-Uong-Healthy-Kham-pha-lop-day-pha-che.jpeg",
+          "productId": "f5887c34-6253-40fe-8033-ee729638cb4d",
+          "quantity": 1,
+          "userId": "1",
+          "nameProduct": "Handmade Granite Sausages"
+        }
+      ],
+      "totalAmount": 1732.8600000000001,
+      "date": "2024-12-11T14:20:36.401Z",
+      "status": "Đã xác nhận",
+      "dateUpdate": "2024-12-11T14:33:38.284Z",
+      "createdAt": 1733926836421,
+      "id": 2
+    },
+    {
+      "fullName": "THUY",
+      "email": "tl403458@gmail.com",
+      "phone": "0869165025",
+      "address": "456 Ngô quyền",
+      "note": "",
+      "userId": "1",
+      "products": [
+        {
+          "img": "https://rcc.vn/wp-content/uploads/2021/01/nuoc-ep-can-tay-loai-thuc-uong-healthy-bo-duong-nuoc-ep-can-tay-5.jpg",
+          "productId": "53d4de5f-c847-41c7-a522-8262ebd582fa",
+          "quantity": 1,
+          "userId": "1",
+          "nameProduct": "Generic Cotton Cheese"
+        }
+      ],
+      "totalAmount": 519.89,
+      "date": "2024-12-11T15:48:40.364Z",
+      "status": "chờ xác nhận ",
+      "dateUpdate": "2024-12-11T15:48:40.364Z",
+      "createdAt": 1733932120391,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "categoryId": 1,
+      "id": "b7a0d32b-91fb-4d43-99bd-426539999aaa",
+      "name": "Generic Plastic Bacon",
+      "color": "#3bf78f",
+      "price": "323.75",
+      "description": "Ascisco volutabrum tantum turpis acerbitas itaque voluptatum cribro aequus. Iste peior consequatur usus ullus quam. Distinctio veritatis vitae utpote ipsa dedico cattus mollitia usque.",
+      "image": "https://vn-live-01.slatic.net/p/cc083d1ad0a1bd59185f058e1f246cbd.jpg",
+      "quantity": 79,
+      "sold": 34,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 1,
+      "id": "53d4de5f-c847-41c7-a522-8262ebd582fa",
+      "name": "Generic Cotton Cheese",
+      "color": "#945d3d",
+      "price": "509.89",
+      "description": "Pectus xiphias soluta valeo quibusdam vulariter defessus caelestis. Spargo vetus excepturi truculenter deleniti tabella spiritus tandem. Aufero natus spes demens comedo quis atqui illo ait.",
+      "image": "https://rcc.vn/wp-content/uploads/2021/01/nuoc-ep-can-tay-loai-thuc-uong-healthy-bo-duong-nuoc-ep-can-tay-5.jpg",
+      "quantity": 4,
+      "sold": 83,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 1,
+      "id": "0142e06c-6b51-473d-91ae-d20b91f84111",
+      "name": "Tasty Concrete Mouse",
+      "color": "#b4d06f",
+      "price": "205.89",
+      "description": "Nam voluptatem sapiente confero aeneus exercitationem concedo trans vigilo. Bibo cauda depromo velociter. Conventus arto maiores abundans quis tantum color arceo crepusculum trucido.",
+      "image": "https://healthyfarm.com.vn/wp-content/uploads/2023/04/Banh-Hat.jpg",
+      "quantity": 3,
+      "sold": 40,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 1,
+      "id": "f5887c34-6253-40fe-8033-ee729638cb4d",
+      "name": "Handmade Granite Sausages",
+      "color": "#57fbc4",
+      "price": "193.19",
+      "description": "Vesco solium maxime termes tantum voco cuppedia cotidie debeo spiritus. Tabernus balbus curso averto. Contigo antea defero cibus.",
+      "image": "https://nvhphunu.vn/wp-content/uploads/2023/12/Hoc-Pha-Che-Do-Uong-Healthy-Kham-pha-lop-day-pha-che.jpeg",
+      "quantity": 88,
+      "sold": 66,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 2,
+      "id": "4f402697-d82b-4272-8552-4884c459df4b",
+      "name": "Unbranded Bronze Ball",
+      "color": "#5fe95b",
+      "price": "12.89",
+      "description": "Volubilis antepono advoco maxime tersus beatae. Astrum velociter constans inflammatio advenio amplus volaticus angulus. Catena coniecto avarus uterque umquam corrumpo comptus vorax aufero.",
+      "image": "https://salt.tikicdn.com/cache/w1200/ts/product/a0/15/d5/e4debaacaeac46f8c68184ce71597a54.png",
+      "quantity": 5,
+      "sold": 2,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 2,
+      "id": "51e2b995-b2a3-4456-93b0-21ee2cf25100",
+      "name": "Sleek Steel Chair",
+      "color": "#dde46b",
+      "price": "671.59",
+      "description": "Perspiciatis abduco statim voluptatum textus virgo similique odio centum statua. Aggredior suspendo deficio dapifer delinquo dignissimos timidus arma ciminatio. Quam solum pel confugo curiositas.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpxghi7klv4ic5",
+      "quantity": 21,
+      "sold": 20,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 2,
+      "id": "c6a6bd6e-599b-408c-9477-81934191bb5c",
+      "name": "Oriental Wooden Towels",
+      "color": "#def86e",
+      "price": "99.10",
+      "description": "Tersus sumo tendo attonbitus. Terra ascit crustulum curatio tyrannus conservo thesaurus caput. Ago terror copia venustas comptus itaque vester ocer via.",
+      "image": "https://file.hstatic.net/1000357530/article/dong_gia_sua_hat-01_8c1007ea96254ad7a757632d5e0f7fcf.jpg",
+      "quantity": 12,
+      "sold": 26,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 2,
+      "id": "fbf09c72-58bd-423d-a0f5-63b78422318c",
+      "name": "Electronic Cotton Chips",
+      "color": "#bb7d7c",
+      "price": "8.65",
+      "description": "Nemo accusamus subito aeternus alveus. Benevolentia illo consequatur eos advoco veritatis despecto acer. Aspicio amissio cariosus talio sapiente.",
+      "image": "https://viethealthy.com/images/Uploads/sp_suachuahylap_1kg.jpg",
+      "quantity": 58,
+      "sold": 95,
+      "createdAt": 1728844911887,
+      "updatedAt": 1728844911887
+    },
+    {
+      "categoryId": 3,
+      "id": "466d0f6f-fba7-4748-9632-ad7323c0a041",
+      "name": "Handcrafted Rubber Shoes",
+      "color": "#cc4baf",
+      "price": "228.89",
+      "description": "Derelinquo culpa depraedor spes. Cimentarius dignissimos adflicto. Civis cruentus deficio odio tamdiu tertius comis armarium.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmu40t1t1ujj43.webp",
+      "quantity": 36,
+      "sold": 57,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 3,
+      "id": "66876cef-e26f-4303-ae06-ae5745e4556c",
+      "name": "Bespoke Granite Keyboard",
+      "color": "#d59e7b",
+      "price": "124.32",
+      "description": "Totam clementia volva sopor cado. Pecto antea natus odit cumque minus adhuc vos atque vetus. Excepturi amitto ara aetas terreo clam.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134258-7ras8-m188fxl9fk3e65",
+      "quantity": 12,
+      "sold": 85,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 3,
+      "id": "bd2a41a9-b709-401f-bf05-fa5b8fdf20e2",
+      "name": "Intelligent Rubber Soap",
+      "color": "#72efbe",
+      "price": "943.59",
+      "description": "Iure cognomen demo virgo toties aequitas. Utrum cimentarius eligendi vilicus sed desino suasoria. Stillicidium vinculum torrens tremo.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqu2xelqz86vc9.webp",
+      "quantity": 8,
+      "sold": 52,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 3,
+      "id": "db8fe888-6f10-4656-96e8-25bb77ca6272",
+      "name": "Rustic Metal Bacon",
+      "color": "#1afa9c",
+      "price": "856.99",
+      "description": "Et vere stipes vindico umbra. Dicta capillus sodalitas ara velit tum considero. Tubineus acervus tergeo vix adsum thorax unde taedium tenus.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134258-7ras8-m188484e77ne96",
+      "quantity": 65,
+      "sold": 31,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 3,
+      "id": "c9b3bbc0-0519-480a-8b2a-c34f194d35fc",
+      "name": "Handmade Steel Bacon",
+      "color": "#ef059a",
+      "price": "344.09",
+      "description": "Adfectus auditor trepide creptio degenero dedico damno error. Ex crepusculum ante substantia congregatio celebrer spero mollitia. Curriculum stabilis spiculum vix vado alioqui aestus ater.",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lgkefx2p8p9zde.webp",
+      "quantity": 35,
+      "sold": 28,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 3,
+      "id": "65a58ae7-5550-4564-9ec6-43d1270314eb",
+      "name": "Practical Cotton Chair",
+      "color": "#c06d63",
+      "price": "559.80",
+      "description": "Officia conduco cotidie. Explicabo tutis arbustum necessitatibus cuppedia. Arto censura amor supellex itaque urbanus communis torrens.",
+      "image": "https://down-vn.img.susercontent.com/file/e71f774549683b809cf557f067bca340.webp",
+      "quantity": 40,
+      "sold": 91,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 4,
+      "id": "9b88ff84-f4af-4c76-8f39-eaf6d07312a8",
+      "name": "Ergonomic Rubber Cheese",
+      "color": "#6fd388",
+      "price": "465.19",
+      "description": "Dolor dens creator templum. Depulso reprehenderit confugo degusto totidem. Laudantium deorsum barba aspernatur quia alioqui conspergo cariosus tremo depraedor.",
+      "image": "https://product.hstatic.net/1000282430/product/upload_dfa941f9c8e446459c938499f49719fb_master.jpg",
+      "quantity": 77,
+      "sold": 16,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 4,
+      "id": "b8d46bdc-587d-4026-b847-62d7dbd1ec5c",
+      "name": "Ergonomic Cotton Chicken",
+      "color": "#d6f115",
+      "price": "906.69",
+      "description": "Natus apud arbitro harum amo nisi delinquo dedico studio ullus. Venio soluta canonicus aequitas apparatus videlicet conscendo conspergo cogito doloribus. Sed doloribus compello quas ubi.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bachhoaxanh.com%2Fkinh-nghiem-hay%2Ftop-5-do-uong-cuc-healthy-bao-ve-suc-khoe-ngay-tet-1412033&psig=AOvVaw297YxF7DBQgw3rkh4M3Wsn&ust=1728926873697000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIj7hO7wi4kDFQAAAAAdAAAAABAE",
+      "quantity": 2,
+      "sold": 72,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 4,
+      "id": "f4279d59-fa84-4536-bea5-17ce963dfda6",
+      "name": "Handcrafted Soft Soap",
+      "color": "#1aa7e3",
+      "price": "584.35",
+      "description": "Super sit delego sui amplus ademptio aperte. Sufficio canto dolores amita adhuc. Decipio est decipio aeneus beatus cruentus collum coniuratio casus.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcaphesach.com.vn%2Ftra-bi-dao-hat-chia%2F&psig=AOvVaw2M1IKPOgTq5taJiGskjf9F&ust=1728926977276000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPja_Ybxi4kDFQAAAAAdAAAAABAE",
+      "quantity": 11,
+      "sold": 21,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    },
+    {
+      "categoryId": 4,
+      "id": "66b16210-8185-42c6-ad15-c03118769552",
+      "name": "Elegant Frozen Keyboard",
+      "color": "#d8adef",
+      "price": "345.35",
+      "description": "Dolores defluo curso ait defaeco deputo adicio suscipio. Caelestis crepusculum utique varietas cupiditate delego cum. Exercitationem vito ventosus dolore amplus texo.",
+      "quantity": 78,
+      "sold": 90,
+      "createdAt": 1728844911888,
+      "updatedAt": 1728844911888
+    }
+  ],
+  "users": [
+    {
+      "username": "thuy",
+      "fullname": "lệ thủy",
+      "email": "tl403458@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "createdAt": 1731604790757,
+      "id": 1
+    },
+    {
+      "username": "dut",
+      "fullname": "le",
+      "email": "dut123@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "createdAt": 1733331637174,
+      "id": 2
+    },
+    {
+      "username": "linh",
+      "fullname": "thao",
+      "email": "linh123@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "createdAt": 1733757650686,
+      "id": 3
+    }
+  ],
+  "carts": [
+    {
+      "productId": "53d4de5f-c847-41c7-a522-8262ebd582fa",
+      "quantity": 1,
+      "userId": "3",
+      "createdAt": 1733773547130,
+      "id": 1
+    },
+    {
+      "productId": "66876cef-e26f-4303-ae06-ae5745e4556c",
+      "quantity": 1,
+      "userId": "3",
+      "createdAt": 1733922300723,
+      "id": 2
+    },
+    {
+      "productId": "53d4de5f-c847-41c7-a522-8262ebd582fa",
+      "quantity": 1,
+      "userId": "1",
+      "createdAt": 1733932318056,
+      "id": 3
+    },
+    {
+      "productId": "466d0f6f-fba7-4748-9632-ad7323c0a041",
+      "quantity": 1,
+      "userId": "1",
+      "createdAt": 1733932509927,
+      "id": 4
+    },
+    {
+      "productId": "51e2b995-b2a3-4456-93b0-21ee2cf25100",
+      "quantity": 1,
+      "userId": "1",
+      "createdAt": 1733933965914,
+      "id": 5
+    }
+  ]
+}
